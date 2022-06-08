@@ -1,16 +1,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly as plt
 import time
 import json
 import requests
-from streamlit_folium import folium_static
-import folium
 import pydeck as pdk
 from func import jsontogeojson, getInfo
 import leafmap.foliumap as leafmap
-import seaborn as sns
 
 st.set_page_config(page_title="My DashBoard",layout="wide")
 # ---------------------------------
