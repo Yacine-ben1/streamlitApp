@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import time
+import json
+import requests
+import pydeck as pdk
+from func import jsontogeojson, getInfo
 import leafmap.foliumap as leafmap
 
 st.set_page_config(page_title="My DashBoard",layout="wide")
